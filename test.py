@@ -9,3 +9,7 @@ def normalize(name):
 #L2 = list(map(normalize, L1))
 #print(normalize())
 
+def normalize(name):
+    return name[0].upper() + name[1:].lower()
+#测试提交
+
